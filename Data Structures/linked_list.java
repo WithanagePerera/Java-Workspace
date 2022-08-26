@@ -52,19 +52,27 @@ public class LinkedList
 
     Node get(int index)
     {
-        if (index = 0)
+        if (index == 0)
         {
             return this.head;
         }
+        else if (index == 1)
+        {
+            return this.head.next;
+        }
         else
         {
-            Node placeholder;
-            for (int i = 0; i < index; i++)
+            Node placeholder = this.head.next;
+            for (int i = 1; i < index; i++)
             {
-                placeholder = 
+                placeholder = placeholder.next;
             }
+
+            return placeholder;
         }
     }
+
+    
 
     public static void main (String [] args)
     {
