@@ -53,6 +53,12 @@ public class initializeQueue
             rear = capacity -1;
             arr = new int[queue.capacity];
         }
+
+        int add (int value)
+        {
+            int firstValue = front;
+            
+        }
     }
 
     public static void main (String [] args)
