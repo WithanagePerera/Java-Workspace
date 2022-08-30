@@ -72,7 +72,10 @@ public class LinkedList
         }
     }
 
-    
+    void add(int data)
+    {
+        for (int i = 0; i < )
+    }
 
     public static void main (String [] args)
     {
@@ -81,5 +84,9 @@ public class LinkedList
 
         example.head = new Node(2);
 
+        for (int i = 0; i < 30; i++)
+        {
+            example.
+        }
     }
 }
