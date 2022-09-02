@@ -2,6 +2,7 @@
 // Keys and values can be different data types
 
 import java.util.HashMap;
+import java.util.Map;
 
 public hash_map
 {
@@ -50,8 +51,5 @@ public hash_map
         {
             System.out.println(pass);        
         }
-
-        // Clearing hashmap
-        speed.clear();
     }
 }
