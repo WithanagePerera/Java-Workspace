@@ -2,7 +2,7 @@
 // Nodes point to another specific node
 // These directions are called edges
 
-public class Graph<T>
-{
+// public class Graph<T>
+// {
     
-}
+// }

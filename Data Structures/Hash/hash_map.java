@@ -3,7 +3,7 @@
 
 import java.util.HashMap;
 
-public hash_map
+public class hash_map
 {
     public static void main (String [] args)
     {
@@ -46,9 +46,9 @@ public hash_map
         System.out.println(speed.size() + " Fastest Languages:\n");
         
         // Iteration with for-each loop
-        for (String pass : speed.keySet())
+        for (int pass : speed.keySet())
         {
-            System.out.println(pass);        
+            System.out.println(speed.get(pass));        
         }
 
         // Clearing hashmap
