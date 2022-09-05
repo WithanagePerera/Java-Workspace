@@ -2,7 +2,6 @@
 // Keys and values can be different data types
 
 import java.util.HashMap;
-import java.util.Map;
 
 public class hash_map
 {
@@ -24,7 +23,7 @@ public class hash_map
         speed.put(10, "OCaml");
 
         // Size of hashmap
-        System.out.println(speed.size() + " Fastest Languages:\n");
+        System.out.println(speed.size() + " Fastest Languages:");
         for (int i = 1; i < 11; i++)
         {
             // Retrieving pairs
@@ -34,7 +33,7 @@ public class hash_map
         System.out.println();
 
         // Size of hashmap
-        System.out.println("Deleting " + speed.size() + " slowest.\n");
+        System.out.println("Deleting " + speed.size() + " slowest.");
         for (int i = 10; i > 5; i--)
         {
             // Removing pairs
@@ -44,7 +43,7 @@ public class hash_map
         System.out.println();
 
         // Size of hashmaps
-        System.out.println(speed.size() + " Fastest Languages:\n");
+        System.out.println(speed.size() + " Fastest Languages:");
         
         // Iteration with for-each loop
         for (int pass : speed.keySet())

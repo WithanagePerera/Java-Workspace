@@ -5,11 +5,11 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class importQueue
+public class queue
 {
     public static void main (String [] args)
     {
-        Queue<Integer> example = new LinkedList();
+        Queue<Integer> example = new LinkedList<>();
         for (int i = 0; i < 25; i++)
         {
             example.add(i);
@@ -27,47 +27,11 @@ public class importQueue
             example.remove();
         }
 
-        System.out.println("\nElements of imported Queue after 5 deletions:");
+        System.out.println("\n\nElements of imported Queue after 5 deletions:");
 
         for (int pass : example)
         {
             System.out.print(pass + " ");
-        }
-    }
-}
-
-public class initializeQueue
-{
-
-    public class Queue
-    {
-        int front, rear, size, capacity;
-        int arr[];
-
-        public Queue (int size)
-        {
-            capacity = size;
-            front = 0;
-            size = 0;
-
-            rear = capacity -1;
-            arr = new int[queue.capacity];
-        }
-
-        int add (int value)
-        {
-            int firstValue = front;
-            
-        }
-    }
-
-    public static void main (String [] args)
-    {
-        Queue example = new Queue(5);
-
-        for (int i = 0; i < example.capacity; i++)
-        {
-            System.out.println(example.arr[i]);
         }
     }
 }
